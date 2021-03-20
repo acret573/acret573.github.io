@@ -6,33 +6,14 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Mar 2021 13:01:23 +0800</lastBuildDate><atom:link href="https://acret573.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Mar 2021 17:40:22 +0800</lastBuildDate><atom:link href="https://acret573.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>我的第一个blog</title>
-      <link>https://acret573.github.io/post/myblog/</link>
-      <pubDate>Sat, 20 Mar 2021 13:01:23 +0800</pubDate>
+      <title>Markdown</title>
+      <link>https://acret573.github.io/post/markdown/</link>
+      <pubDate>Sat, 20 Mar 2021 17:40:22 +0800</pubDate>
       
-      <guid>https://acret573.github.io/post/myblog/</guid>
-      <description>假如我是一朵雪花，
-　翩翩的在半空里潇洒，
-　我一定认清我的方向──
-　飞扬，飞扬，飞扬，──
-　这地面上有我的方向。
-　不去那冷寞的幽谷，
-　不去那凄清的山麓，
-　也不上荒街去惆怅──
-　飞扬，飞扬，飞扬，──
-　你看，我有我的方向！
-　在半空里娟娟的飞舞，
-　认明了那清幽的住处，
-　等著她来花园里探望──
-　飞扬，飞扬，飞扬，──
-　啊，她身上有朱砂梅的清香！
-　那时我凭藉我的身轻，
-　盈盈的，沾住了她的衣襟，
-　贴近她柔波似的心胸──
-　消溶，消溶，消溶──
-　溶入了她柔波似的心胸！</description>
+      <guid>https://acret573.github.io/post/markdown/</guid>
+      <description>Markdown 语法 各种标签 标题  ‘#’ 一级标题 ‘##’ 二级标题 ‘###’ 三级标题 ‘####...#xn&#39; n级标题  段落 hello world 空两格然后回车 hello world hello world  字体 </description>
     </item>
     
   </channel>

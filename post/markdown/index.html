@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>Posts</title>
+<title>Markdown</title>
 
 
 
@@ -51,6 +51,10 @@
 
 
 
+  
+    <script src="https://acret573.github.io/js/toc-collapse.js"></script>
+  
+
 
 
 
@@ -96,6 +100,122 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 </div><div ref="extraContainer" class="extra-container">
     
     
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#markdown-%e8%af%ad%e6%b3%95" onclick="onNavClick(`#markdown-语法-nav`)" id="markdown-语法-nav">
+									Markdown 语法
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e5%90%84%e7%a7%8d%e6%a0%87%e7%ad%be" onclick="onNavClick(`#各种标签-nav`)" id="各种标签-nav">
+									各种标签
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e6%a0%87%e9%a2%98" onclick="onNavClick(`#标题-nav`)" id="标题-nav">
+									标题
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%ae%b5%e8%90%bd" onclick="onNavClick(`#段落-nav`)" id="段落-nav">
+									段落
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%ad%97%e4%bd%93" onclick="onNavClick(`#字体-nav`)" id="字体-nav">
+									字体
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
@@ -113,8 +233,6 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
         </a>
         
         
-        
-        
     </div>
 </div>
 <div class="single-column-drawer-container" ref="drawer"
@@ -124,6 +242,122 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
             
             
             
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#markdown-%e8%af%ad%e6%b3%95" onclick="onNavClick(`#markdown-语法-nav`)" id="markdown-语法-nav">
+									Markdown 语法
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e5%90%84%e7%a7%8d%e6%a0%87%e7%ad%be" onclick="onNavClick(`#各种标签-nav`)" id="各种标签-nav">
+									各种标签
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e6%a0%87%e9%a2%98" onclick="onNavClick(`#标题-nav`)" id="标题-nav">
+									标题
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%ae%b5%e8%90%bd" onclick="onNavClick(`#段落-nav`)" id="段落-nav">
+									段落
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%ad%97%e4%bd%93" onclick="onNavClick(`#字体-nav`)" id="字体-nav">
+									字体
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
             
         </div>
     </div>
@@ -166,52 +400,91 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
             <div id="content">
 <div ref="streamContainer" class="stream-container">
     <div class="post-list-container post-list-container-shadow">
-        
-            <a class="a-block">
-                <div class="post-item-wrapper post-item-wrapper-no-hover">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title post-item-title-small year">
-                                2021
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
+        <div class="post">
             
-            <a href="/post/markdown/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                Markdown
-                            </div>
-                            <div class="post-item-meta">
-    2021-03-20
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-    <span class="draft-label">DRAFT</span>
-    
-</div>
+            
+            
 
-                        </div>
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    Markdown
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2021-03-20 17:40
+                        </time>
+                        
+
+                        
+
+                        
+                        
                     </div>
                 </div>
-            </a>
+            </div>
             
-        
-    </div>
-</div>
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <!-- raw HTML omitted -->
+<h1 id="markdown-语法">Markdown 语法</h1>
+<h2 id="各种标签">各种标签</h2>
+<h3 id="标题">标题</h3>
+<pre><code> ‘#’ 一级标题
+ ‘##’ 二级标题
+ ‘###’ 三级标题
+ ‘####...#xn' n级标题
+</code></pre>
+<h3 id="段落">段落</h3>
+<pre><code>hello world  空两格然后回车
+
+hello world
+hello world  
+</code></pre>
+<!-- raw HTML omitted -->
+<h3 id="字体">字体</h3>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2021-03-20</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts">
+			Next<br>No newer posts.
+                </a>
+                
+                
+                
+                <a class="older-posts">
+			Previous<br>No older posts.
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
 
 
             </div>
+        </div>
+    </div>
+</div>
 
-
-<div id="single-column-footer">
+            </div><div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
 Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
