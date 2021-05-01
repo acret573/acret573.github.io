@@ -17,8 +17,8 @@
         <pubDate>Sat, 01 May 2021 19:32:46 +0800</pubDate>
         
         <guid>https://acret573.github.io/post/c/</guid>
-        <description>My New Hugo Site https://acret573.github.io/post/c/ -&lt;p&gt;&lt;img src=&#34;https://wallpaperm.cmcm.com/706e0ee33962db6284e60f5d99b33303.jpg&#34; alt=&#34;a1&#34;&gt;
-#循环第二次作业第五关&lt;/p&gt;
+        <description>My New Hugo Site https://acret573.github.io/post/c/ -&lt;p&gt;&lt;img src=&#34;https://wallpaperm.cmcm.com/706e0ee33962db6284e60f5d99b33303.jpg&#34; alt=&#34;a1&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;循环第二次作业第五关&#34;&gt;循环第二次作业第五关&lt;/h1&gt;
 &lt;pre&gt;&lt;code&gt;#include&amp;lt;stdio.h&amp;gt;
 int main()
 {
@@ -46,6 +46,33 @@ int main()
     }
     printf(&amp;quot;%d\n&amp;quot;,s);
 
+    return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;http://img.netbian.com/file/2021/0427/267fc2f785d7ac881430ff3c8a2c5a95.jpg&#34; alt=&#34;a2&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;循环第二次作业第六关&#34;&gt;循环第二次作业第六关&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;#include&amp;lt;stdio.h&amp;gt;
+int main()
+{
+    int n,i,k;
+    scanf(&amp;quot;%d&amp;quot;,&amp;amp;n);
+    for(k=2;k&amp;lt;=n;k++)
+    {
+        int s=0;
+        //判断k是否是完数
+        for(i=1;i&amp;lt;k;i++)
+   {
+        if(k%i==0)
+        {
+            s+=i;
+        }
+    
+    }
+    if(k==s)
+        {
+            printf(&amp;quot;%d\n&amp;quot;,k);
+        }
+    }
     return 0;
 }
 &lt;/code&gt;&lt;/pre&gt;
