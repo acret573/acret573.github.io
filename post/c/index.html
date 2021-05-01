@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html><head>
-	<meta name="generator" content="Hugo 0.81.0" />
-<title>My New Hugo Site</title>
+<title>C</title>
 
 
-
-  
 
 
 <meta charset="utf-8">
@@ -54,6 +51,10 @@
 
 
 
+  
+    <script src="https://acret573.github.io/js/toc-collapse.js"></script>
+  
+
 
 
 
@@ -67,7 +68,7 @@
 <body>
     	<div id="app"><div ref="sideContainer" class="side-container">
     
-    <a class="a-block nav-head active" href="https://acret573.github.io">
+    <a class="a-block nav-head false" href="https://acret573.github.io">
     
         <div class="nav-title">
             My New Hugo Site
@@ -99,6 +100,11 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 </div><div ref="extraContainer" class="extra-container">
     
     
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
@@ -116,8 +122,6 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
         </a>
         
         
-        
-        
     </div>
 </div>
 <div class="single-column-drawer-container" ref="drawer"
@@ -127,6 +131,11 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
             
             
             
+            
+            <div class="toc">
+
+
+</div>
             
         </div>
     </div>
@@ -167,48 +176,108 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 </div>
 
             <div id="content">
-
 <div ref="streamContainer" class="stream-container">
-    <div class="post-list-container post-list-container-no-background">
-        
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
             
-            <a href="https://acret573.github.io/post/c/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-divider">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                C
-                            </div>
-                            <div class="post-item-summary">
-                                
-                            </div>
-                            <div class="post-item-meta">
-    2021-05-01
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-    <span class="draft-label">DRAFT</span>
-    
-</div>
+            
+            
 
-                        </div>
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    C
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2021-05-01 19:32
+                        </time>
+                        
+
+                        
+
                         
                         
                     </div>
                 </div>
+            </div>
             
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p><img src="https://wallpaperm.cmcm.com/706e0ee33962db6284e60f5d99b33303.jpg" alt="a1">
+#循环第二次作业第五关</p>
+<pre><code>#include&lt;stdio.h&gt;
+int main()
+{
+    //m=200 n=300
+    int m,n,i,k,s=0;
+    //a统计整除的个数
+    scanf(&quot;%d %d&quot;,&amp;m,&amp;n);
+    for(i=m;i&lt;=n;i++)
+    {
+        int a=0;
+        for(k=2;k&lt;i;k++)
+        {
+            if(i%k==0)
+            {
+                a++;
+           
+
+            }
         
-        </a>
+        }
+        if(a==0)
+            {   
+                s+=i;
+            }
+    }
+    printf(&quot;%d\n&quot;,s);
+
+    return 0;
+}
+</code></pre>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2021-05-01</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts">
+			Next<br>No newer posts.
+                </a>
+                
+                
+                
+                <a class="older-posts">
+			Previous<br>No older posts.
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+            </div>
+        </div>
     </div>
 </div>
 
-            </div>
-
-
-<div id="single-column-footer">
+            </div><div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
 Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>

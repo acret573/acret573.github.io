@@ -5,36 +5,51 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Mar 2021 17:40:22 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 01 May 2021 19:32:46 +0800</lastBuildDate>
     
         <atom:link href="https://acret573.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     
         <item>
-        <title>Markdown</title>
-        <link>https://acret573.github.io/post/markdown/</link>
-        <pubDate>Sat, 20 Mar 2021 17:40:22 +0800</pubDate>
+        <title>C</title>
+        <link>https://acret573.github.io/post/c/</link>
+        <pubDate>Sat, 01 May 2021 19:32:46 +0800</pubDate>
         
-        <guid>https://acret573.github.io/post/markdown/</guid>
-        <description>My New Hugo Site https://acret573.github.io/post/markdown/ -&lt;!-- raw HTML omitted --&gt;
-&lt;h1 id=&#34;markdown-语法&#34;&gt;Markdown 语法&lt;/h1&gt;
-&lt;h2 id=&#34;各种标签&#34;&gt;各种标签&lt;/h2&gt;
-&lt;h3 id=&#34;标题&#34;&gt;标题&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt; ‘#’ 一级标题
- ‘##’ 二级标题
- ‘###’ 三级标题
- ‘####...#xn&#39; n级标题
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;段落&#34;&gt;段落&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;hello world  空两格然后回车
+        <guid>https://acret573.github.io/post/c/</guid>
+        <description>My New Hugo Site https://acret573.github.io/post/c/ -&lt;p&gt;&lt;img src=&#34;https://wallpaperm.cmcm.com/706e0ee33962db6284e60f5d99b33303.jpg&#34; alt=&#34;a1&#34;&gt;
+#循环第二次作业第五关&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#include&amp;lt;stdio.h&amp;gt;
+int main()
+{
+    //m=200 n=300
+    int m,n,i,k,s=0;
+    //a统计整除的个数
+    scanf(&amp;quot;%d %d&amp;quot;,&amp;amp;m,&amp;amp;n);
+    for(i=m;i&amp;lt;=n;i++)
+    {
+        int a=0;
+        for(k=2;k&amp;lt;i;k++)
+        {
+            if(i%k==0)
+            {
+                a++;
+           
 
-hello world
-hello world  
+            }
+        
+        }
+        if(a==0)
+            {   
+                s+=i;
+            }
+    }
+    printf(&amp;quot;%d\n&amp;quot;,s);
+
+    return 0;
+}
 &lt;/code&gt;&lt;/pre&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h3 id=&#34;字体&#34;&gt;字体&lt;/h3&gt;
-- https://acret573.github.io/post/markdown/ - </description>
+- https://acret573.github.io/post/c/ - </description>
         </item>
     
     
